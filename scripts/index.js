@@ -38,6 +38,8 @@ function initAmericanFootballTeams() {
         let theOption = new Option(teams[i].name, teams[i].teamcode);
         teamList.appendChild(theOption);
     }
+
+    
 }
 
 //const selBtn = document.getElementById("selectBtn");
